@@ -2,17 +2,17 @@
 
 ## Author: Mendoza Matt Gabriel P. 
 
-This project is a simple, console-based Bookstore Inventory Management System created for the Data Structures and Algorithms lab. It is written in Java and demonstrates the practical application of fundamental data structures and algorithms, including LinkedLists, Queues, Sorting, and Searching.
+This project is a simple console-based Java program that helps manage a collection of books in a bookstore. The system allows users to add any book they want, view available books, sort the inventory, search for specific book they want, and also handle customers orders. 
 
 ## Features
 
-*   **Adding a New Books**: Users can add new books to the inventory by providing a title, author, ISBN, and price.
-*   **Dynamic Inventory Storage**: Utilizes a **`LinkedList`** to dynamically store and manage the collection of books.
-*   **Display All Books**: Shows a complete list of all books currently in the inventory.
-*   **Sort Inventory**: Implements a **Bubble Sort algorithm** to organize the books alphabetically by title.
-*   **Search for Books**: Uses a **Linear Search algorithm** to find a specific book by its title.
-*   **Order Processing**: Implements a **`Queue`** to manage customer book orders in a first-in, first-out (FIFO) manner.
-*   **Interactive Menu**: A user-friendly, menu-driven interface for easy navigation and operation.
+*   **Adding a New Books**: Users can insert new books into the inventory by entering the required details like the title, author, ISBN, and the price.
+*   **Flexible Inventory Storage**: The system uses a LinkedList to store all book records, allowing the inventory to expand or shrink as needed.
+*   **Display Complete Books List**: Users can display every book that is stored in the system. 
+*   **Sort Inventory**: The inventory can be sorted by book title using a Bubble Sort algorithm that helps the user for browsing.
+*   **Search for Books**: A Linear Search feature lets users look up a book by its title to check if the book is in the inventory.
+*   **Order Processing**: A Queue structure handles customer book orders in a first-come, first-served manner.
+*   **Simple Menu Navigation**: A clear, interactive menu guides users through all available operations.
 
 ## How to Run the Project
 
@@ -44,13 +44,11 @@ This project is a simple, console-based Bookstore Inventory Management System cr
 Here are screenshots demonstrating the flow and functionality of the application.
 
 ### 1. Main Menu
-
 ![Main Menu]
 (<img width="560" height="282" alt="Screenshot 2025-11-21 165121" src="https://github.com/user-attachments/assets/f5371cc0-2f0c-4ac2-afb0-a72a4470434d" />)
 
 
 ### 2. Adding New Books
-*(A screenshot showing the process of adding a couple of books)*
 ![Adding Books]
 (<img width="581" height="378" alt="Screenshot 2025-11-21 164019" src="https://github.com/user-attachments/assets/d92c1f14-30d0-4fe5-b3a0-78f65a94520f" />)
 (<img width="444" height="339" alt="Screenshot 2025-11-21 164215" src="https://github.com/user-attachments/assets/23455429-4dc9-417a-ad30-0dc24c55a5fc" />)
@@ -78,6 +76,7 @@ Here are screenshots demonstrating the flow and functionality of the application
 ![Queue Operations]
 (<img width="553" height="276" alt="Screenshot 2025-11-21 164521" src="https://github.com/user-attachments/assets/0d55367d-a5d6-4af3-aeef-ff82bfcdfa13" />)
 (<img width="563" height="272" alt="Screenshot 2025-11-21 164527" src="https://github.com/user-attachments/assets/a47fd4e0-78e7-4813-a942-2f4c29df7bee" />)
+
 ![Processed]
 (<img width="461" height="290" alt="Screenshot 2025-11-21 164551" src="https://github.com/user-attachments/assets/17193903-9ee4-4b55-972e-c0608518f43e" />)
 (<img width="448" height="292" alt="Screenshot 2025-11-21 164558" src="https://github.com/user-attachments/assets/9a479293-4f4c-4f0f-a0ea-7a14d00d3187" />)
